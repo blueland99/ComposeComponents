@@ -12,7 +12,8 @@ import androidx.compose.ui.tooling.preview.Preview
 fun MainScreen() {
     // MainScreen에서 GreetingView 컴포저블을 호출하고 문자열을 전달
 //    GreetingView("Android Compose")
-    LayoutExample()
+//    LazyColumnExample()
+    LazyRowExample()
 }
 
 @Preview(showBackground = true)
